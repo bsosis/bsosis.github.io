@@ -1,32 +1,67 @@
-- title: General Information
+- title: Basics
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Baram Sosis
+    - name: Email
+      value: <a href="mailto:bas226@pitt.edu">bas226@pitt.edu</a>
+    - name: Summary
+      value: PhD student interested in AI safety, ML, mathematical neuroscience, and dynamical systems theory.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Mathematics
+      institution: University of Pittsburgh
+      location: Pittsburgh, PA
+      year: 2019-PRESENT
+      maindescription: "Advisor: <a href=https://www.mathematics.pitt.edu/people/jonathan-rubin>Dr. Jonathan Rubin</a>"
+    - title: BS in Computer Science and Mathematics
+      institution: University of Maryland
+      location: College Park, MD
+      year: 2015-2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Computer Science Departmental Honors Program (High Honors); Advisor: <a href=https://www.cs.umd.edu/~reggia/>Dr. James Reggia</a>"
+        - "Gemstone Honors Program; Advisor: <a href=https://spacecraft.ssl.umd.edu/>Dr. David Akin</a>"
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Distinct dopaminergic spike-timing-dependent plasticity rules are suited to different functional roles
+      year: 2024
+      publisher: Biological Cybernetics
+      maindescription: Under review.
+    - title: Calculation of Expected Reward Rate in a Two-Alternative Decision Process
+      year: 2024
+      publisher: SIAM Journal on Applied Mathematics
+      maindescription: Under review.
+
+- title: Conferences
+  type: time_table
+  contents:
+    - title: Analyzing Reward Rate on Forced-Choice Tasks
+      year: 2023
+      location: Portland, OR
+      publisher: SIAM Conference on Applications of Dynamical Systems
+      maindescription: Poster presentation.
+    - title: Optimal Decision-Making and Learning with Drift Diffusion Models
+      year: 2022
+      location: Newark, NJ
+      publisher: 17<sup>th</sup> Conference on Frontiers in Applied and Computational Mathematics
+      maindescription: Poster presentation.
+    - title: Development and Testing of a 3D-Printed Spacesuit Elbow Assembly
+      year: 2019
+      location: Boston, MA
+      publisher: 49<sup>th</sup> International Conference on Environmental Systems
+    - title: Learning in a Continuous-Valued Attractor Network
+      year: 2018
+      location: Orlando, FL
+      publisher: 17<sup>th</sup> IEEE International Conference on Machine Learning and Applications
+      maindescription: Oral presentation.
+    - title: In-Situ Fabricated Space Suits for Extended Exploration
+      year: 2017
+      location: Charleston, SC
+      publisher: 47<sup>th</sup> International Conference on Environmental Systems
 
 - title: Experience
   type: time_table

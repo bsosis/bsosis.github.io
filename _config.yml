@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Baram
 middle_name: 
 last_name: Sosis
-email: bsosis272@gmail.com
+email: bas226@pitt.edu
 description: 
 footer_text:
 keywords: # add your own keywords or leave empty
@@ -635,6 +635,7 @@ jsonresume:
   - work
   - education
   - publications
+  - conferences
   - projects
   - volunteer
   - awards
@@ -643,3 +644,4 @@ jsonresume:
   - languages
   - interests
   - references
+
