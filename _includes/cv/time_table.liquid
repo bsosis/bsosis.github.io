@@ -56,6 +56,9 @@
           {% if content.publisher %}
             <div class="ml-1 ml-md-4" style="font-style: italic">{{ content.publisher }}</div>
           {% endif %}
+          {% if content.advisor %}
+            <div class="ml-1 ml-md-4">Advisor: <span style="font-variant: small-caps">{{ content.advisor }}</span></div>
+          {% endif %}
           {% if content.maindescription %}
             <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
           {% endif %}
