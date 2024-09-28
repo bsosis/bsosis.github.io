@@ -1,0 +1,98 @@
+// To use a local font file: (Code from Claude)
+// Weights: 300=light, 400=normal, 700=bold
+@font-face {
+    font-family: 'Source Serif Pro';
+    src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-regular-webfont.woff2') format('woff2'),
+        url('../fonts/source-serif-pro_webfonts/sourceserifpro-regular-webfont.woff') format('woff'),
+        url('../fonts/source-serif-pro/SourceSerifPro-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-extralight-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-extralight-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-ExtraLight.otf') format('opentype');
+font-weight: 200;
+font-style: normal;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-light-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-light-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-Light.otf') format('opentype');
+font-weight: 300;
+font-style: normal;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-semibold-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-Semibold.otf') format('opentype');
+font-weight: 500;
+font-style: normal;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-bold-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-bold-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-Bold.otf') format('opentype');
+font-weight: 700;
+font-style: normal;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-black-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-black-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-Black.otf') format('opentype');
+font-weight: 900;
+font-style: normal;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-it-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-it-webfont.woff') format('woff'),
+    url('../ass/fonts/source-serif-pro/SourceSerifPro-It.otf') format('opentype');
+font-weight: 400;
+font-style: italic;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-extralightit-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-extralightit-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-ExtraLightIt.otf') format('opentype');
+font-weight: 300;
+font-style: italic;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-lightit-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-lightit-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-LightIt.otf') format('opentype');
+font-weight: 200;
+font-style: italic;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-semiboldit-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-semiboldit-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-SemiboldIt.otf') format('opentype');
+font-weight: 500;
+font-style: italic;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-boldit-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-boldit-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-BoldIt.otf') format('opentype');
+font-weight: 700;
+font-style: italic;
+}
+@font-face {
+font-family: 'Source Serif Pro';
+src: url('../fonts/source-serif-pro_webfonts/sourceserifpro-blackit-webfont.woff2') format('woff2'),
+    url('../fonts/source-serif-pro_webfonts/sourceserifpro-blackit-webfont.woff') format('woff'),
+    url('../fonts/source-serif-pro/SourceSerifPro-BlackIt.otf') format('opentype');
+font-weight: 900;
+font-style: italic;
+}

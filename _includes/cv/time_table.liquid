@@ -1,4 +1,5 @@
-<ul class="card-text font-weight-light list-group list-group-flush">
+{% comment %} <ul class="card-text font-weight-light list-group list-group-flush"> {% endcomment %}
+<ul class="card-text font-weight-medium list-group list-group-flush">
   {% for content in entry.contents %}
     <li class="list-group-item">
       <div class="row">
@@ -57,7 +58,7 @@
             <div class="ml-1 ml-md-4" style="font-style: italic">{{ content.publisher }}</div>
           {% endif %}
           {% if content.advisor %}
-            <div class="ml-1 ml-md-4">Advisor: <span style="font-variant: small-caps">{{ content.advisor }}</span></div>
+            <div class="ml-1 ml-md-4">Advisor: <span class="font-weight-semi-bold" style="font-variant: small-caps">{{ content.advisor }}</span></div>
           {% endif %}
           {% if content.maindescription %}
             <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>

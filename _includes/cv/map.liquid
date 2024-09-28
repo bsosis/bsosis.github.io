@@ -5,10 +5,12 @@
         <b>{{ content.name }}</b>
       </td>
       {% if content.value %}
-        <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td>
+        {% comment %} <td class="p-1 pl-2 font-weight-light text">{{ content.value }}</td> {% endcomment %}
+        <td class="p-1 pl-2 font-weight-medium text">{{ content.value }}</td>
       {% endif %}
       {% if content.links %}
-        <td class="p-1 pl-2 font-weight-light text">
+        {% comment %} <td class="p-1 pl-2 font-weight-light text"> {% endcomment %}
+        <td class="p-1 pl-2 font-weight-medium text">
           <div class="container-pdf">
             {% for item in content.links %}
               {% if item.link %}

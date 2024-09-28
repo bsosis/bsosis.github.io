@@ -1,3 +1,28 @@
+
+@import '_myfonts';
+
+body { 
+  font-family: "Source Serif Pro", "Georgia", serif;
+  // Use Regular (rather than light, which was the default for some reason
+  font-weight: 400;
+}
+
+// Create a semi-bold font class
+.font-weight-semi-bold {
+  font-weight: 500;
+}
+
+// Manually making sure certain things use font-weight 400
+table {
+  td {
+    font-weight: 400;
+  }
+}
+
+h3 {
+  font-weight: 400;
+}
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/

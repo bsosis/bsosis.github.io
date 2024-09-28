@@ -21,19 +21,19 @@
       location: College Park, MD
       year: 2015-2019
       description:
-        - 'Computer Science Departmental Honors Program (High Honors); Advisor: <span style="font-variant: small-caps"><a href=https://www.cs.umd.edu/~reggia/>Dr. James Reggia</a></span>'
-        - 'Gemstone Honors Program; Advisor: <span style="font-variant: small-caps"><a href=https://spacecraft.ssl.umd.edu/>Dr. David Akin</a></span>'
+        - 'Computer Science Departmental Honors Program (High Honors); Advisor: <span class="font-weight-semi-bold" style="font-variant: small-caps"><a href=https://www.cs.umd.edu/~reggia/>Dr. James Reggia</a></span>'
+        - 'Gemstone Honors Program; Advisor: <span class="font-weight-semi-bold" style="font-variant: small-caps"><a href=https://spacecraft.ssl.umd.edu/>Dr. David Akin</a></span>'
 
 - title: Publications
   type: time_table
   contents:
     - title: Distinct dopaminergic spike-timing-dependent plasticity rules are suited to different functional roles
       year: 2024
-      publisher: Biological Cybernetics
+      # publisher: Biological Cybernetics
       maindescription: Under review.
     - title: Calculation of Expected Reward Rate in a Two-Alternative Decision Process
       year: 2024
-      publisher: SIAM Journal on Applied Mathematics
+      # publisher: SIAM Journal on Applied Mathematics
       maindescription: Under review.
 
 - title: Conferences
@@ -71,75 +71,83 @@
       location: Pittsburgh, PA
       year: 2019-PRESENT
       advisor: <a href=https://www.mathematics.pitt.edu/people/jonathan-rubin>Dr. Jonathan Rubin</a>
-      description:
-        - Built a stochastic model of spike-timing-dependent neural plasticity with dopaminergic modulation, derived an averaged form of the model, and studied its dynamics and ability to learn biologically-relevant tasks
-        - Developed an optimal-observer model of decision-making on forced choice tasks using drift diffusion models and analyzed an alternative expression for reward rate derived using the Fokker-Planck equation
+      maindescription: Stochastic modeling of dopamine-modulated neural plasticity and decision-making
+      # description:
+      #   - Built a stochastic model of spike-timing-dependent neural plasticity with dopaminergic modulation, derived an averaged form of the model, and studied its dynamics and ability to learn biologically-relevant tasks
+      #   - Developed an optimal-observer model of decision-making on forced choice tasks using drift diffusion models and analyzed an alternative expression for reward rate derived using the Fokker-Planck equation
     - title: Fellow
       institution: <a href=https://pibbss.ai/>Principles of Intelligent Behavior in Biological and Social Systems</a>
       location: London, UK
       year: 2024
       advisor: <a href=https://gavento.cz/>Dr. Tomáš Gavenčiak</a>
-      description:
-        - Tested methods of measuring beliefs in language models during chain-of-thought reasoning
-        - Analyzed the measured beliefs using a model of bounded rationality
+      maindescription: Measuring beliefs of language models during chain-of-thought and applying models of bounded rationality
+      # description:
+      #   - Tested methods of measuring beliefs in language models during chain-of-thought reasoning
+      #   - Analyzed the measured beliefs using a model of bounded rationality
     - title: Computer Science Departmental Honors Research
       institution: University of Maryland
       location: College Park, MD
       year: 2017-2018
       advisor: <a href=https://www.cs.umd.edu/~reggia/>Dr. James Reggia</a>
-      description:
-        - Developed Hopfield network variant
-        - Investigated the application of a recently-developed fixed-point solver to Hopfield networks
+      maindescription: Developing Hopfield network variant and applying a fixed-point solver
+      # description:
+      #   - Developed Hopfield network variant
+      #   - Investigated the application of a recently-developed fixed-point solver to Hopfield networks
     - title: Gemstone Honors Program
       institution: University of Maryland
       location: College Park, MD
       year: 2015-2019
       advisor: <a href=https://spacecraft.ssl.umd.edu/>Dr. David Akin</a>
       maindescription: Team project researching improvements in spacesuit joint design using additive manufacturing
-      description:
-        - Developed software and electronics for testing rig to measure ease of movement
-        - Designed experimental protocol for human testing
+      # description:
+      #   - Developed software and electronics for testing rig to measure ease of movement
+      #   - Designed experimental protocol for human testing
     - title: Summer Undergraduate Research Experience
       institution: University of Southern California
       location: Los Angeles, CA
       year: 2018
       advisor: <a href=https://idm-lab.org/>Dr. Sven Koenig</a>
-      description:
-        - Designed neural networks to serve as heuristics for automated planning
-        - Optimized network architectures for several different planning domains
+      maindescription: Employing neural networks as heuristics for automated planning
+      # description:
+      #   - Designed neural networks to serve as heuristics for automated planning
+      #   - Optimized network architectures for several different planning domains
     - title: Intern
       institution: NASA Goddard Space Flight Center
       location: Greenbelt, MD
       year: 2017
       advisor: James MacKinnon
-      maindescription: 'Project title: “Enabling Machine Learning Applications Using MODIS Imagery”'
-      description:
-        - Developed a tool to facilitate ML applications using Earth-imaging satellite data
-        - Trained neural networks to identify wildfires in MODIS satellite imagery
+      # maindescription: 'Project title: “Enabling Machine Learning Applications Using MODIS Imagery”'
+      maindescription: Detecting wildfires in satellite imagery using machine learning
+      # description:
+      #   - Developed a tool to facilitate ML applications using Earth-imaging satellite data
+      #   - Trained neural networks to identify wildfires in MODIS satellite imagery
     - title: Maryland All-Sky Camera Survey
       institution: University of Maryland
       location: College Park, MD
       year: 2016
       advisor: <a href=https://www.astro.umd.edu/people/teuben.html>Dr. Peter Teuben</a>
-      description:
-        - Developed an automated astronomy data-processing pipeline
+      maindescription: Developing an automated astronomy data-processing pipeline
+      # description:
+      #   - Developed an automated astronomy data-processing pipeline
     - title: Intern
       institution: NASA Goddard Space Flight Center
       location: Greenbelt, MD
       year: 2016
       advisor: Dan Mandl
-      maindescription: 'Project title: “Unmanned Aerial Systems Onboard Software Developer”'
-      description:
-        - Reconfigured GeoCorrection for Airborne Platforms (GCAP) software tool for use with the Nano-Hyperspec instrument
-        - Developed Core Flight System app encapsulating GCAP
+      # maindescription: 'Project title: “Unmanned Aerial Systems Onboard Software Developer”'
+      maindescription: Integrating geocorrection software tool for use with unmanned aerial systems
+      # description:
+      #   - Reconfigured GeoCorrection for Airborne Platforms (GCAP) software tool for use with the Nano-Hyperspec instrument
+      #   - Developed Core Flight System app encapsulating GCAP
     - title: Intern
       institution: Northeastern University
       location: Boston, MA
       year: 2013-2015
       advisor: <a href=https://cos.northeastern.edu/people/meni-wanunu/>Dr. Meni Wanunu</a>
-      description:
-        - Prepared and analyzed DNA samples and nanopore membranes
-        - Customized and patched data analysis software
+      maindescription: Preparing and analyzing DNA samples and nanopore membranes and customizing analysis software
+      # description:
+      #   - Prepared and analyzed DNA samples and nanopore membranes
+      #   - Customized and patched data analysis software
 
 - title: Honors, Awards, & Scholarships
   type: time_table
@@ -155,11 +163,11 @@
     - year: 2017
       maindescription: 1<sup>st</sup> Place Gemstone Junior Colloquia Award — UMD
     - year: 2015-2019
-      maindescription: Dean's List — UMD
+      maindescription: Dean’s List — UMD
     - year: 2015-2019
       maindescription: Presidential Scholarship — UMD
 
-- title: Professional Organizations
-  type: list
-  contents:
-    - Society for Industrial and Applied Mathematics, American Mathematical Society
+# - title: Professional Organizations
+#   type: list
+#   contents:
+#     - Society for Industrial and Applied Mathematics, American Mathematical Society
