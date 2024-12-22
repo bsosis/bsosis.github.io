@@ -4,9 +4,9 @@
     - name: Name
       value: Baram Sosis
     - name: Email
-      value: <a href="mailto:bas226@pitt.edu">bas226@pitt.edu</a>
+      value: <a href="mailto:bsosis272@gmail.com">bsosis272@gmail.com</a>
     - name: Summary
-      value: PhD student interested in AI safety, ML, mathematical neuroscience, and dynamical systems theory.
+      value: Independent researcher interested in AI safety, ML, mathematical neuroscience, and dynamical systems theory.
 
 - title: Education
   type: time_table
@@ -14,8 +14,10 @@
     - title: PhD in Mathematics
       institution: University of Pittsburgh
       location: Pittsburgh, PA
-      year: 2019-PRESENT
+      year: 2019-2024
       advisor: <a href=https://www.mathematics.pitt.edu/people/jonathan-rubin>Dr. Jonathan Rubin</a>
+      description:
+        - 'Thesis: A Mathematical Analysis of Effective Learning and Decision-Making in Neuronal Circuits'
     - title: BS in Computer Science and Mathematics
       institution: University of Maryland
       location: College Park, MD
@@ -69,7 +71,7 @@
     - title: Graduate Researcher
       institution: University of Pittsburgh
       location: Pittsburgh, PA
-      year: 2019-PRESENT
+      year: 2019-2024
       advisor: <a href=https://www.mathematics.pitt.edu/people/jonathan-rubin>Dr. Jonathan Rubin</a>
       maindescription: Stochastic modeling of dopamine-modulated neural plasticity and decision-making
       # description:
@@ -149,9 +151,13 @@
       #   - Prepared and analyzed DNA samples and nanopore membranes
       #   - Customized and patched data analysis software
 
-- title: Honors, Awards, & Scholarships
+- title: Awards, Scholarships, & Grants
   type: time_table
   contents:
+    - year: 2024
+      maindescription: Long-Term Future Fund — Effective Ventures Foundation
+    - year: 2024
+      maindescription: Career Development and Transition Funding — Open Philanthropy
     - year: 2023
       maindescription: Department of Mathematics Travel Funding — Pitt
     - year: 2019
