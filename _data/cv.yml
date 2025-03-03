@@ -33,10 +33,10 @@
       year: 2025
       # publisher: Biological Cybernetics
       maindescription: Under review.
-    - title: Calculation of Expected Reward Rate in a Two-Alternative Decision Process
+    - title: <a href=https://epubs.siam.org/doi/10.1137/23M1577110>Calculation of Expected Reward Rate in a Two-Alternative Decision Process</a>
       year: 2025
       publisher: SIAM Journal on Applied Mathematics
-      maindescription: In press.
+      # maindescription: In press.
 
 - title: Conferences
   type: time_table
