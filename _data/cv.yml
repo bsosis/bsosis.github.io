@@ -37,7 +37,7 @@
     - title: <a href=https://epubs.siam.org/doi/10.1137/23M1577110>Calculation of Expected Reward Rate in a Two-Alternative Decision Process</a>
       year: 2025
       publisher: SIAM Journal on Applied Mathematics
-      # maindescription: In press.
+      # maindescription: 
 
 - title: Conferences
   type: time_table
@@ -69,6 +69,15 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Fellow
+      institution: <a href=https://sparai.org/>Supervised Program for Alignment Research</a>
+      location: Berkeley, CA
+      year: 2025
+      # advisor:
+      # maindescription:
+      description: 
+        - "With Rohan Subramani: Measuring the effectiveness of chain-of-thought monitoring and when it can fail"
+        - "With Aaron Scher: Studying the potential impact of consumer hardware on AI compute governance"
     - title: Graduate Researcher
       institution: University of Pittsburgh
       location: Pittsburgh, PA
