@@ -32,8 +32,8 @@
   contents:
     - title: Distinct dopaminergic spike-timing-dependent plasticity rules are suited to different functional roles
       year: 2025
-      # publisher: Biological Cybernetics
-      maindescription: Under review.
+       publisher: Biological Cybernetics
+      maindescription: In press.
     - title: <a href=https://epubs.siam.org/doi/10.1137/23M1577110>Calculation of Expected Reward Rate in a Two-Alternative Decision Process</a>
       year: 2025
       publisher: SIAM Journal on Applied Mathematics
@@ -70,14 +70,20 @@
   type: time_table
   contents:
     - title: Fellow
+      institution: Anthropic Fellows Program
+      location: Berkeley, CA
+      year: 2026
+      advisor: Fabien Roger
+      maindescription: Investigating how helpful-only training leads to emergent misalignment and other changes in LLM behavior
+    - title: Fellow
       institution: <a href=https://sparai.org/>Supervised Program for Alignment Research</a>
       location: Berkeley, CA
       year: 2025
       # advisor:
       # maindescription:
       description: 
-        - "With Rohan Subramani: Measuring the effectiveness of chain-of-thought monitoring and when it can fail"
-        - "With Aaron Scher: Studying the potential impact of consumer hardware on AI compute governance"
+        - "With Rohan Subramani: Measured how different RL training pressures affect chain-of-thought legibility"
+        - "With Aaron Scher: Studied the potential impact of consumer hardware on AI compute governance"
     - title: Graduate Researcher
       institution: University of Pittsburgh
       location: Pittsburgh, PA
@@ -92,7 +98,7 @@
       location: London, UK
       year: 2024
       advisor: <a href=https://gavento.cz/>Dr. Tomáš Gavenčiak</a>
-      maindescription: Measuring beliefs of language models during chain-of-thought and applying models of bounded rationality
+      maindescription: Tested methods of measuring and analyzing beliefs in language models during chain-of-thought reasoning
       # description:
       #   - Tested methods of measuring beliefs in language models during chain-of-thought reasoning
       #   - Analyzed the measured beliefs using a model of bounded rationality
@@ -101,7 +107,7 @@
       location: College Park, MD
       year: 2017-2018
       advisor: <a href=https://www.cs.umd.edu/~reggia/>Dr. James Reggia</a>
-      maindescription: Developing Hopfield network variant and applying a fixed-point solver
+      maindescription: Analyzed Hopfield networks and methods of locating their fixed points
       # description:
       #   - Developed Hopfield network variant
       #   - Investigated the application of a recently-developed fixed-point solver to Hopfield networks
@@ -110,7 +116,7 @@
       location: College Park, MD
       year: 2015-2019
       advisor: <a href=https://spacecraft.ssl.umd.edu/>Dr. David Akin</a>
-      maindescription: Team project researching improvements in spacesuit joint design using additive manufacturing
+      maindescription: Cofounder of team applying additive manufacturing to spacesuit construction
       # description:
       #   - Developed software and electronics for testing rig to measure ease of movement
       #   - Designed experimental protocol for human testing
@@ -119,7 +125,7 @@
       location: Los Angeles, CA
       year: 2018
       advisor: <a href=https://idm-lab.org/>Dr. Sven Koenig</a>
-      maindescription: Employing neural networks as heuristics for automated planning
+      maindescription: Designed and trained neural network-based heuristics for automated planning
       # description:
       #   - Designed neural networks to serve as heuristics for automated planning
       #   - Optimized network architectures for several different planning domains
@@ -129,7 +135,7 @@
       year: 2017
       advisor: James MacKinnon
       # maindescription: 'Project title: “Enabling Machine Learning Applications Using MODIS Imagery”'
-      maindescription: Detecting wildfires in satellite imagery using machine learning
+      maindescription: Trained neural networks to identify wildfires in MODIS satellite imagery
       # description:
       #   - Developed a tool to facilitate ML applications using Earth-imaging satellite data
       #   - Trained neural networks to identify wildfires in MODIS satellite imagery
@@ -138,7 +144,7 @@
       location: College Park, MD
       year: 2016
       advisor: <a href=https://www.astro.umd.edu/people/teuben.html>Dr. Peter Teuben</a>
-      maindescription: Developing an automated astronomy data-processing pipeline
+      maindescription: Developed an automated astronomy data-processing pipeline
       # description:
       #   - Developed an automated astronomy data-processing pipeline
     - title: Intern
@@ -147,7 +153,7 @@
       year: 2016
       advisor: Dan Mandl
       # maindescription: 'Project title: “Unmanned Aerial Systems Onboard Software Developer”'
-      maindescription: Integrating geocorrection software tool for use with unmanned aerial systems
+      maindescription: IIntegrated hyperspectral imager with Core Flight System software and geocorrection tool
       # description:
       #   - Reconfigured GeoCorrection for Airborne Platforms (GCAP) software tool for use with the Nano-Hyperspec instrument
       #   - Developed Core Flight System app encapsulating GCAP
@@ -156,7 +162,7 @@
       location: Boston, MA
       year: 2013-2015
       advisor: <a href=https://cos.northeastern.edu/people/meni-wanunu/>Dr. Meni Wanunu</a>
-      maindescription: Preparing and analyzing DNA samples and nanopore membranes and customizing analysis software
+      maindescription: Prepared and analyzed DNA samples and nanopore membranes and customized analysis software
       # description:
       #   - Prepared and analyzed DNA samples and nanopore membranes
       #   - Customized and patched data analysis software
