@@ -30,10 +30,10 @@
 - title: Publications
   type: time_table
   contents:
-    - title: Distinct dopaminergic spike-timing-dependent plasticity rules are suited to different functional roles
-      year: 2025
+    - title: <a href=https://doi.org/10.1007/s00422-025-01031-3>Distinct dopaminergic spike-timing-dependent plasticity rules are suited to different functional roles</a>
+      year: 2026
       publisher: Biological Cybernetics
-      maindescription: In press.
+      # maindescription: In press.
     - title: <a href=https://epubs.siam.org/doi/10.1137/23M1577110>Calculation of Expected Reward Rate in a Two-Alternative Decision Process</a>
       year: 2025
       publisher: SIAM Journal on Applied Mathematics
