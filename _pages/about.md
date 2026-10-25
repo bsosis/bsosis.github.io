@@ -14,6 +14,6 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I'm an independent researcher working on AI safety. I recently completed a PhD in Mathematics at the University of Pittsburgh, where I built and analyzed models of decision-making and learning in the brain. 
+I'm a researcher at [Principled Agents](https://principledagents.org/) working on designing safe goals and training objectives for AIs. Previously I completed a PhD in Mathematics at the University of Pittsburgh, where I studied models of decision-making and learning in the brain. 
 
-Outside of work I enjoy writing, playing, and listening to classical music, hiking, bouldering, and board games.
+Outside of work I enjoy writing, playing, and listening to classical music, hiking, bouldering, reading, and board games.
