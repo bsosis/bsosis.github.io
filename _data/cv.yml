@@ -6,7 +6,7 @@
     - name: Email
       value: <a href="mailto:bsosis272@gmail.com">bsosis272@gmail.com</a>
     - name: Summary
-      value: Independent researcher interested in AI safety, ML, mathematical neuroscience, and dynamical systems theory.
+      value: Researcher interested in AI safety, ML, mathematical neuroscience, and dynamical systems theory.
 
 - title: Education
   type: time_table
@@ -30,6 +30,10 @@
 - title: Publications
   type: time_table
   contents:
+    - title: <a href=https://arxiv.org/abs/2606.04413>(Mis)generalization of Helpful-only Fine-tuning</a>
+      year: 2026
+      # publisher:
+      # maindescription: In press.
     - title: <a href=https://doi.org/10.1007/s00422-025-01031-3>Distinct dopaminergic spike-timing-dependent plasticity rules are suited to different functional roles</a>
       year: 2026
       publisher: Biological Cybernetics
@@ -69,12 +73,18 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Researcher
+      institution: <a href=https://principledagents.org/>Principled Agents</a>
+      location: Berkeley, CA
+      year: 2026
+      # advisor: 
+      maindescription: Designing safe goals and training objectives for AIs
     - title: Fellow
       institution: Anthropic Fellows Program
       location: Berkeley, CA
       year: 2026
       advisor: Fabien Roger
-      maindescription: Investigating how helpful-only training leads to emergent misalignment and other changes in LLM behavior
+      maindescription: Investigated how helpful-only training leads to emergent misalignment and other changes in LLM behavior
     - title: Fellow
       institution: <a href=https://sparai.org/>Supervised Program for Alignment Research</a>
       location: Berkeley, CA
